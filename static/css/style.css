@@ -1,0 +1,64 @@
+/* This css file is used to style the webpage */
+/* version: 14/01/2021 */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+/* General Styling */
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+
+/* Set a semi transparent/opaque background for the webpage */
+
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url("../downloads/background-2.jpg"); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Style the css for the navigation bar */
+
+.navbar {
+    width: 100%;
+    height: 72px;
+    padding: 0 10%;
+    display: flex;
+    background-color: teal;
+    align-items: center;
+    text-align: center;
+}
+
+.navigation {
+    margin-left: auto;
+}
+
+.navigation a {
+    height: 100%;
+    color: white;
+    padding: 20px 20px;
+    font-weight: 700;
+}
+
+.navigation a:last-of-type{
+    padding-right: 0px;
+}
+
+
+.logo {
+    background-color: lightblue;
+    width: 100px;
+    height: inherit;
+    
+}
+
+/* *********************************** */
+
+/* Style the bopdy of the webpage */
