@@ -67,10 +67,10 @@ body {
     padding: 4px;
 }
 
-.logo ion-icon {
+/* .logo ion-icon {
     color: white;
     font-size: 55px;
-}
+} */
 
 /* *********************************** */
 
@@ -141,10 +141,10 @@ h3 {
     padding-right: 30px;
 }
 
-.page_footer ion-icon {
+/* .page_footer ion-icon {
     color: white;
     font-size: 25px;
-}
+} */
 
 /* Responsive layout - when screen is less than 445px wide */
 
