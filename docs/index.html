@@ -6,37 +6,61 @@
 
     <title>Ahbar Sakib</title>
     <!-- Set the icon for the web logo -->
-    <link rel="icon" type="image/png" href="../static/downloads/web-logo.png">
+    <link rel="icon" type="image/png" href="../static/downloads/house.png">
     <!-- Link the stylesheet for the styling -->
-    <link rel="stylesheet" href="../static/css/style.css"
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
 
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="logo">
-            <img src="/static/downloads/house.png" height="72" width="72">
+    <div class="wrapper">    
+        <div class="navbar">
+            <div class="logo">
+                <!-- <img src="../static/downloads/house.png" height="55" width="55"> -->
+                <ion-icon name="code-slash"></ion-icon>
+            </div>
+            <!-- INCLUDE target blank where needed -->
+            <div class="navigation">
+                <a href="#">HOME</a>
+                <a href="#">PROJECTS</a>
+                <a href="#">ABOUT</a>
+                <a href="" class="menu" onclick="showMenu()">
+                    <ion-class name="menu"></ion-class>
+                </a>
+            </div>
         </div>
-        <!-- INCLUDE target blank where needed -->
-        <div class="navigation">
-            <a href="#">HOME</a>
-            <a href="#">PROJECTS</a>
-            <a href="#">ABOUT</a>
+
+        <div class="home_container">
+            <h1>Software Engineer & Data Scientist</h1>
+            <hr>
+            <h3>Pursuing and specializing in a career with Cybersecurity, Web Application Development, Machine Learning and Data Analysis & Visualisation. 
+                Currently located in Perth, Western Australia.
+            </h3>
+            
+        </div>
+
+        <div class="page_footer">
+            <small>© Copyright 2021. All rights reserved.</small>
+            <ul>
+                <li>
+                    <a href="https://github.com/ahbarsakib?tab=repositories" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.inkedin.com/in/ahbar-sakib-5a797317a" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="ahbar.sakib@gmail.com" target="_blank">
+                        <ion-icon name="mail"></ion-icon>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
-
-    <div class="home_container">
-        <h1>Software Engineer & Data Scientist</h1>
-        <hr>
-        <h3>Pursuing and specializing in a career with Cybersecurity, Web Application Development, Machine Learning and Data Analysis & Visualisation. 
-            Currently located in Perth, Western Australia.
-        </h3>
-    </div>
-
-    <footer class="page_footer">
-        <small>© Copyright 2018. All rights reserved.</small>
-
-    </footer>
 </body>
 
 </html>
